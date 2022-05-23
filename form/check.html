@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+    <link rel="stylesheet" href="index.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+</head>
+<body>
+    <form id="content">
+        <h2>Form</h2>
+        <label for="Name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br>
+        <label for="Email">Email:</label>
+        <input type="text" id="email" placeholder="abc@gmail.com">
+        <br>
+        <label for="phone">Mobile:</label>
+        <input type="number"  id="mobile" placeholder="Enter mobile number">
+        <br>
+        <label for="dogname">Name of Your Dog:</label>
+        <input type="text" id="dogname" placeholder="Enter your dog name">
+        <br>
+        <label for="dogage">Age of Your Dog:</label>
+        <input type="text" id="age" placeholder="Enter your dog age">
+        <br>
+        <label for="dogclr">Color of Your Dog:</label>
+        <input type="text" id="clr" placeholder="Enter your dog color"><br>
+        <br>
+        <label for="breed">Breed of your dog:</label>
+        <input type="text" id="breed" placeholder="Enter your dog breed"><br>
+        <br>
+        
+
+        
+    
+        <button type="submit" id="btn"class="btn btn-dark" onclick="info()">Submit</button>
+
+    </form>
+    <script>
+        function info(){
+            console.log(document.getElementById("name").value);
+            console.log(document.getElementById("email").value);
+            console.log(document.getElementById("mobile").value);
+            console.log(document.getElementById("dogname").value);
+            console.log(document.getElementById("age").value);
+            console.log(document.getElementById("clr").value);
+            console.log(document.getElementById("check").value);
+
+            document.getElementById("content").innerHTML = "Thankyou for Submitting."
+
+        }
+    </script>
+</body>
+</html>
+
