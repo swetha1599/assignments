@@ -1,0 +1,45 @@
+form{
+    background: linear-gradient(45deg,white,black);
+    margin: auto;  
+    width: 12cm;
+    border-radius:10px; 
+    padding: 10px 20px;
+
+}
+h2{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+
+}
+label{
+    width: 140px;
+    display: inline-block;
+    margin: 0.2cm;
+    font-size: 16px;
+    font-weight: bold;
+    color: black; 
+}
+input{
+    padding: 4px;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #f9f9f9;
+    width:7cm;
+    
+
+}
+input#check{
+    margin:0 auto;
+    padding: 10px;
+
+    
+
+}
+button{
+    padding:4px;
+    margin-left: 60%;
+    margin-top: -40px;
+}
