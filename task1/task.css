@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-items{
+    background-color: black;
+    color: #ffffff;
+}
+.logo{
+    padding-top: 10px;
+}
+.sub button{
+    border: none;
+    background-color: red;
+    color: #ffffff;
+    padding: 10px 10px;
+}
+.contact{
+   padding: 0 10px;
+   margin-top: 15px;
+}
+.banner{
+    /*background-image: url("images/pt_lab_image.png");*/
+    background-image: url("images/bgpic.jpg");
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.banner ul{
+    list-style-type: none;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+}
+.banner ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.sub-wematters {
+    padding: 30px;
+    background-color: black;
+    color: #ffffff;
+}
+.wematters h1{
+    text-align: center;
+    color: yellow;
+    margin-bottom: 40px;
+}
+.joinours{
+    text-align: center;
+    margin-top: 40px;
+}
+.joinours .fa{
+    margin-left: 20px;
+}
+.joinours a{
+    
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 40px;
+    
+}
+hr{
+    margin: 0;
+}
+.wematters img{
+    width: 460px;
+    height: 230px;
+}
+.sub-thinking{
+    background-color: black;
+    color: #ffffff;
+    padding: 30px;
+}
+.thinkinglabs a{
+    background-color: red;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+.thinkinglabs h1{
+    color: red;
+}
+.thinkinglabs img{
+    width: 470px;
+    height:320px;
+}
+.labs-buttons{
+    text-align: center;
+    margin-top: 40px;
+}
+.labs-buttons .fa{
+    margin-left: 20px;
+}
+#meetup-button{
+    margin-right: -7px;
+    padding: 0px 10px;
+    background-color: black;
+    color: #ffffff;
+}
+#meetup-button2{
+    padding: 0px 10px;
+    background-color: #ffffff;
+}
+#conference-button{
+    margin-right: -7px;
+    padding: 0px 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+#conference-button2{
+    padding: 0px 10px;
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.c-button{
+    text-align: center;
+    margin: 20px 0;
+}
+.conf-heading{
+    text-align: center;
+}
+.notify-me a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: red;
+   
+    border-radius: 20px;
+    padding: 5px 10px;
+    
+}
+.notify-me .fa{
+    margin-left: 20px;
+}
+.sub-conference{
+    padding: 30px;
+    background-color: black;
+    color: #ffffff;
+}
+.sub-videos{
+    padding: 30px;
+}
+.series{
+    padding: 30px;
+}
+.img-fluid{
+   height: 50%;
+}
